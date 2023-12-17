@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Accordian</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="head-sec">
+        <h3>Static Accordian</h3>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <button class="question">
+                What is the purpose of the "this" keyword in JavaScript?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="answer">
+                <p>The "this" keyword refers to the current execution context. In a method, "this" represents the object
+                    that the method is called on. In a function, "this" refers to the global object (window in a
+                    browser) unless the function is part of an object.</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <button class="question">
+                What is JavaScript and what role does it play in web development?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="answer">
+                <p>JavaScript is a high-level, interpreted programming language primarily used for enhancing
+                    interactivity in web browsers. It allows developers to create dynamic content, handle events, and
+                    manipulate the Document Object Model (DOM) of a webpage.</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <button class="question">
+                What is the event loop in JavaScript and how does it work?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="answer">
+                <p>The event loop is a mechanism that allows JavaScript to handle asynchronous operations. It
+                    continuously checks the message queue for events or functions to execute, making it possible to
+                    manage tasks like AJAX requests without blocking the main thread.</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <button class="question">
+                How does JavaScript handle hoisting?
+                <i class="fas fa-plus icon"></i>
+            </button>
+            <div class="answer">
+                <p>JavaScript hoisting is a behavior where variable and function declarations are moved to the top of
+                    their containing scope during the compilation phase. Variables declared with "var" are hoisted and
+                    initialized with "undefined," while functions are hoisted with their full definition.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
